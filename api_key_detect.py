@@ -1,6 +1,6 @@
 import sys, os, re, itertools
 
-ignored = ['.git', '.gz', '.ico', '.lz4', '.mov', '.pem', '.png', '.sass-cache', 'bower_components', 'node_modules', 'sbin', 'ssl/certs']
+ignored = ['.git', '.gz', '.ico', '.lz4', '.md5sums', '.mov', '.pem', '.png', '.sass-cache', 'bower_components', 'node_modules', 'sbin', 'ssl/certs']
 api_key_min_entropy_ratio = 0.5
 api_key_min_length = 7
 
